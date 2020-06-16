@@ -1,0 +1,11 @@
+.project-list {
+    display: flex;
+    flex-flow: column;
+    background-color: #ebe3ee;
+}
+
+.project-list .project-wrapper {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}

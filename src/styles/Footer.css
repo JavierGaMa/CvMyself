@@ -1,0 +1,14 @@
+footer.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #1b2938;
+  }
+  
+  footer.footer a {
+    border-bottom: 2px solid transparent;
+  }
+  
+  footer.footer a:hover {
+    background: none;
+  }
