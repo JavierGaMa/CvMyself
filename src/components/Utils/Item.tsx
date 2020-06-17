@@ -4,14 +4,12 @@ import '../../styles/Item.css'
 class Item extends Component<any> {
     render () {
         const { image, name, descrption, plattform} = this.props.element;
-
         
-
+         
         return (
             <div className="project">
-
             <div className="project-image">
-                <img src={image} alt=''></img>
+            <img alt='' key={this.props.key} src={require(`../../assets/${image}.png`)}  />;
             </div>
     
             <div className="project-kind web">{plattform}</div>
