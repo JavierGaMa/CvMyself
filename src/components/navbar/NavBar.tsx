@@ -9,7 +9,7 @@ const NavBar = () => {
       <div className="container">
         <a className="navbar-brand bg-none">
         <NavLink to='/'  >
-          Francisco Javier
+          Francisco
         </NavLink>
         </a>
         

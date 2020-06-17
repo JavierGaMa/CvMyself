@@ -1,14 +1,28 @@
-footer.footer {
+.footer {
     position: fixed;
     bottom: 0;
     width: 100%;
     background-color: #1b2938;
+    display: flex;
+  }
+  .footer .container {
+    
+    display: flex;
+    justify-content: flex-start;
   }
   
-  footer.footer a {
+  .footer a {
     border-bottom: 2px solid transparent;
   }
   
-  footer.footer a:hover {
+  .footer a:hover {
     background: none;
+  }
+
+  .icon-footer{
+    height: 40px;
+  }
+  .footer img {
+
+    margin-right: 20px;
   }
