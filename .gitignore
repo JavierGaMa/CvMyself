@@ -10,6 +10,8 @@
 
 # production
 /build
+/__snapshots__
+/output
 
 # misc
 .DS_Store
