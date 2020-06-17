@@ -72,7 +72,7 @@
     "start": "node scripts/start.js",
     "build": "node scripts/build.js",
     "test": "node scripts/test.js",
-    "test:coverage": "jest --coverage --coverageDirectory=output/coverage" 
+    "test:coverage": "jest --coverage --coverageDirectory=output/coverage"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -90,7 +90,9 @@
     ]
   },
   "devDependencies": {
-    "@types/react-router-dom": "^5.1.5"
+    "@types/react-router-dom": "^5.1.5",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.2"
   },
   "jest": {
     "roots": [

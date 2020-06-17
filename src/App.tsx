@@ -9,6 +9,7 @@ import Home from "./components/Home";
 import View from "./components/ViewProjects/View";
 import Footer from "./components/Footer/Footer";
 import Studies from './components/Studies/Studies';
+
 function App() {
   return (
     <Router>
